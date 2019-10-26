@@ -1,3 +1,4 @@
+function penilaian() {
 
 var no1 = document.uts.item1.value;
 var no1 = no1.toLowerCase();
@@ -59,6 +60,37 @@ var no19 = no19.toLowerCase();
 var no20 = document.uts.item20.value;
 var no20 = no20.toLowerCase();
 
+
+var no21 = document.uts.item21.value;
+var no21 = no21.toLowerCase();
+
+var no22 = document.uts.item22.value;
+var no22 = no22.toLowerCase();
+
+var no23 = document.uts.item23.value;
+var no23 = no23.toLowerCase();
+
+var no24 = document.uts.item24.value;
+var no24 = no24.toLowerCase();
+
+var no25 = document.uts.item25.value;
+var no25 = no25.toLowerCase();
+
+var no26 = document.uts.item26.value;
+var no26 = no26.toLowerCase();
+
+var no27 = document.uts.item27.value;
+var no27 = no27.toLowerCase();
+
+var no28 = document.uts.item28.value;
+var no28 = no28.toLowerCase();
+
+var no29 = document.uts.item29.value;
+var no29 = no29.toLowerCase();
+
+var no30 = document.uts.item30.value;
+var no30 = no30.toLowerCase();
+
 /*
 var allNumber = [
   no1,no2,no3,no4,no5,no6,no7,no8,no9,no10,no11,no12,no13,no14,no15,no16,no17,no18,no19,no20];
@@ -74,7 +106,7 @@ sendBtn.style.display = "none"
 var submitBtn = document.querySelector(".submitBtn");
 
 
-function penilaian() {
+
  
   if (no1==="d") {
     nilaiAngka+=5;
@@ -137,7 +169,45 @@ function penilaian() {
     nilaiAngka+=5;
   }
   
+  if (no21==="a") {
+    nilaiAngka+=5;
+  }
   
+  if (no22==="a") {
+    nilaiAngka+=5;
+  }
+  
+  if (no23==="b") {
+    nilaiAngka+=5;
+  }
+  
+  if (no24==="a") {
+    nilaiAngka+=5;
+  }
+  
+  if (no25==="c") {
+    nilaiAngka+=5;
+  }
+  
+  if (no26==="d") {
+    nilaiAngka+=5;
+  }
+  
+  if (no27==="d") {
+    nilaiAngka+=5;
+  }
+  
+  if (no28==="a") {
+    nilaiAngka+=5;
+  }
+  
+  if (no29==="c") {
+    nilaiAngka+=5;
+  }
+  
+  if (no30==="a") {
+    nilaiAngka+=5;
+  }
  
  
   
